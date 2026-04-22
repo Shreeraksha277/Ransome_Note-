@@ -5,7 +5,7 @@ class Solution {
 
         // Step 1: Count characters in magazine
         for (char c : magazine.toCharArray()) {
-            count[c - 'a']++;
+             count[c - 'a']++;
         }
 
         // Step 2: Try to construct ransomNote
