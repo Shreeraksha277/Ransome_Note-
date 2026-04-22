@@ -1,6 +1,6 @@
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
-        
+         
         int[] count = new int[26]; // for 'a' to 'z'
 
         // Step 1: Count characters in magazine
